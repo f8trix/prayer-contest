@@ -50,7 +50,6 @@ function initializeDataFiles() {
                 { id: 27, name: "محمد حسن الحماده", points: 0 },
                 { id: 28, name: "مريم أحمد علي الغدير", points: 0 },
                 { id: 29, name: "مسلم عقيل الشيخ صالح", points: 0 },
-                { id: 30, name: "نبراس عمار بن عطاء", points: 0 },
                 { id: 31, name: "نور سعيد الجاسم", points: 0 }
             ],
             group2: [
@@ -77,30 +76,36 @@ function initializeDataFiles() {
                 { id: 52, name: "فاطمة حسين الحسن", points: 0 },
                 { id: 53, name: "فاطمة صالح السالم", points: 0 },
                 { id: 54, name: "فاطمة عبدالله الحسن", points: 0 },
+                { id: 78, name: "فجر صادق الحسن", points: 0 },
                 { id: 55, name: "قمر عبدالجبار الحسن", points: 0 },
                 { id: 56, name: "كاظم يوسف السعيد", points: 0 },
                 { id: 57, name: "ملك عبدالجبار الحسن", points: 0 },
                 { id: 58, name: "مهدي حسين الحسن", points: 0 },
                 { id: 59, name: "نجاة علي الحسن", points: 0 },
+                { id: 30, name: "نبراس عمار بن عطاء", points: 0 },
                 { id: 60, name: "وفاء سلمان الحرز", points: 0 },
                 { id: 61, name: "وفاء علي الحسن", points: 0 }
             ],
             group3: [
+                { id: 79, name: "أمير حسين الشرقي", points: 0 },
                 { id: 62, name: "تقي جواد الجاسم", points: 0 },
                 { id: 63, name: "جمانه سعيد الجاسم", points: 0 },
                 { id: 64, name: "حسن حبيب الحسن", points: 0 },
                 { id: 65, name: "الحسن محمد البصري", points: 0 },
                 { id: 66, name: "حوراء عبدالعزيز الأحمد", points: 0 },
+                { id: 80, name: "حسين عبدرب الرسول الشرقي", points: 0 },
                 { id: 67, name: "زينب يحيى السيحة", points: 0 },
                 { id: 68, name: "سامي جعفر السيحة", points: 0 },
                 { id: 69, name: "سجاد يحيى السيحة", points: 0 },
                 { id: 70, name: "سعاد أحمد القطيفي", points: 0 },
                 { id: 71, name: "علي محمد البصري", points: 0 },
+                { id: 81, name: "فاطمة سامي السيحة", points: 0 },
                 { id: 72, name: "فاطمة سعيد الجاسم", points: 0 },
                 { id: 73, name: "فاطمة محمد البصري", points: 0 },
                 { id: 74, name: "قاسم حسن الحماده", points: 0 },
                 { id: 75, name: "محمد حسين الحسن", points: 0 },
                 { id: 76, name: "محمد يحيى السيحة", points: 0 },
+                { id: 82, name: "ميامين حسين الشرقي", points: 0 },
                 { id: 77, name: "يحيى سامي السيحة", points: 0 }
             ]
         };
