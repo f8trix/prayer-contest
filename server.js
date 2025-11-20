@@ -110,7 +110,7 @@ function initializeDataFiles() {
             ]
         };
         fs.writeFileSync(USERS_FILE, JSON.stringify(initialUsers, null, 2));
-        console.log('✅ Users data file created with Arabic names');
+        console.log('✅ Users data file created');
     }
 
     if (!fs.existsSync(DATA_FILE)) {
@@ -218,7 +218,7 @@ app.put('/api/users/:id/points', (req, res) => {
     ['group1', 'group2', 'group3'].forEach(group => {
         const userIndex = users[group].findIndex(u => u.id === userId);
         if (userIndex !== -1) {
-            users[group][userIndex].points = points;
+            users[group][userIndex].points += points;
             userFound = true;
             updatedUser = users[group][userIndex];
         }
