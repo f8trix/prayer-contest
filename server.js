@@ -117,7 +117,7 @@ function initializeDataFiles() {
         const initialData = {
             lastUpdate: new Date().toISOString(),
             stats: {
-                totalUsers: 77,
+                totalUsers: 82,
                 totalPoints: 0,
                 averagePoints: 0
             }
