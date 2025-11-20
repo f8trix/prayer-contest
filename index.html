@@ -331,14 +331,14 @@
                 allUsers = await response.json();
                 
                 // Group users by ID ranges for the form
-                usersByGroup.group1 = allUsers.filter(user => user.id <= 31);
-                usersByGroup.group2 = allUsers.filter(user => user.id > 31 && user.id <= 61);
-                usersByGroup.group3 = allUsers.filter(user => user.id > 61);
+                usersByGroup.group1 = allUsers.filter(user => user.id <= 30);
+                usersByGroup.group2 = allUsers.filter(user => user.id > 30 && user.id <= 62);
+                usersByGroup.group3 = allUsers.filter(user => user.id > 62);
                 
                 console.log('Loaded users:', allUsers);
             } catch (error) {
                 console.error('Error loading users:', error);
-                alert('خطأ في تحميل المستخدمين من الخادم. تأكد من تشغيل الخادم على المنفذ 3000.');
+                alert('خطأ في تحميل المستخدمين من الخادم. تأكد من تشغيل الخادم على المنفذ 3001.');
             }
         }
 
