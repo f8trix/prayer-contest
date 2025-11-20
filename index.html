@@ -331,9 +331,9 @@
                 allUsers = await response.json();
                 
                 // Group users by ID ranges for the form
-                usersByGroup.group1 = allUsers.filter(user => user.id <= 30);
-                usersByGroup.group2 = allUsers.filter(user => user.id > 30 && user.id <= 62);
-                usersByGroup.group3 = allUsers.filter(user => user.id > 62);
+                usersByGroup.group1 = allUsers.filter(user => user.id <= 29);
+                usersByGroup.group2 = allUsers.filter(user => user.id > 29 && user.id <= 61);
+                usersByGroup.group3 = allUsers.filter(user => user.id > 61);
                 
                 console.log('Loaded users:', allUsers);
             } catch (error) {
